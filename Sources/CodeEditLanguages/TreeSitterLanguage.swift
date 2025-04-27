@@ -29,6 +29,7 @@ public enum TreeSitterLanguage: String {
     case jsx
     case julia
     case kotlin
+    case latex      // LaTeX source files (.tex, .latex)  [oai_citation:1‡GitHub](https://github.com/CodeEditApp/CodeEditLanguages/blob/main/Sources/CodeEditLanguages/TreeSitterLanguage.swift)
     case lua
     case markdown
     case markdownInline

@@ -33,6 +33,7 @@ public extension CodeLanguage {
         .jsx,
         .julia,
         .kotlin,
+        .latex,
         .lua,
         .markdown,
         .markdownInline,
@@ -464,6 +465,15 @@ public extension CodeLanguage {
         extensions: ["txt"],
         lineCommentString: "",
         rangeCommentStrings: ("", "")
+    )
+    
+    /// A language structure for `LaTeX`
+    static let latex: CodeLanguage = .init(
+        id: .latex,
+        tsName: "latex",
+        extensions: ["tex", "latex"],
+        lineCommentString: "%",
+        rangeCommentStrings: ("\\begin{comment}", "\\end{comment}")
     )
 }
 

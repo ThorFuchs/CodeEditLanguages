@@ -1,5 +1,5 @@
 {
-  "originHash" : "c940c7467f54711e27ceb0cef308954e1fdbcc20f3dd59d96d6efbe29d7a04ba",
+  "originHash" : "0e61287230cddd170028f9759239eee5835475cc61382890dfba048219c59239",
   "pins" : [
     {
       "identity" : "tree-sitter-agda",
@@ -170,6 +170,15 @@
       "state" : {
         "branch" : "main",
         "revision" : "76f53c48d29e8588934fb55b0240d7bdfe00bfe5"
+      }
+    },
+    {
+      "identity" : "tree-sitter-latex",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/latex-lsp/tree-sitter-latex.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "f736d24d89acbd90092d92089e5171e6a449db40"
       }
     },
     {

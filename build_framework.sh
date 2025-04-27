@@ -22,8 +22,8 @@ if [ "$1" = "--debug" ]; then
     QUIET_FLAG=""
     QUIET_OUTPUT=/dev/stdout
 else
-    QUIET_FLAG="-quiet"
-    QUIET_OUTPUT=/dev/null
+    QUIET_FLAG=""
+    QUIET_OUTPUT=/dev/stdout
 fi
 
 # Set pipefail to make sure that the script fails if any of the commands fail
